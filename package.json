@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "yubikey-client@0.2.5",
+      "C:\\Users\\LEGIOXIII\\Desktop\\kronos"
+    ]
+  ],
+  "_from": "yubikey-client@0.2.5",
+  "_id": "yubikey-client@0.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-7GjZpxQdBVBELfQ6zHe+ejg0RL4Qv97OlA7IKBHIvnClB73tcZAMQEcpu/oz2YxgRC8NJ3PQgp63lqPKUG6+cQ==",
+  "_location": "/yubikey-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "yubikey-client@0.2.5",
+    "name": "yubikey-client",
+    "escapedName": "yubikey-client",
+    "rawSpec": "0.2.5",
+    "saveSpec": null,
+    "fetchSpec": "0.2.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/yubikey-client/-/yubikey-client-0.2.5.tgz",
+  "_spec": "0.2.5",
+  "_where": "C:\\Users\\LEGIOXIII\\Desktop\\kronos",
+  "author": {
+    "name": "JohnOllhorn",
+    "email": "john.ollhorn@true-itk.de"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/JohnOllhorn/yubikey-client/issues"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
+  },
+  "description": "Yubico Yubikey API Client for Node.js",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nock": "^9.6.1",
+    "pre-commit": "^1.2.2"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.1.0"
+  },
+  "homepage": "https://gitlab.com/JohnOllhorn/yubikey-client/",
+  "keywords": [
+    "Yubikey",
+    "Yubico",
+    "API",
+    "authentication",
+    "security"
+  ],
+  "license": "GNU GPLv3",
+  "main": "index.js",
+  "name": "yubikey-client",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/JohnOllhorn/yubikey-client.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "upgrade": "ncu -u"
+  },
+  "version": "0.2.5"
+}
